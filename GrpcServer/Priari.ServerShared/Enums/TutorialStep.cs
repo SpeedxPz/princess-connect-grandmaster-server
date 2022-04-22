@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Priari.ServerShared.Enums
+{
+	public enum TutorialStep
+	{
+		START,
+		PROLOGUE_START,
+		PROLOGUE_END,
+		FIRST_AVATAR_START,
+		FIRST_AVATAR_END,
+		SECOND_AVATAR_START,
+		SECOND_AVATAR_END,
+		THIRD_AVATAR_START,
+		THIRD_AVATAR_END,
+		FOURTH_AVATAR_START,
+		FOURTH_AVATAR_END,
+		FIFTH_AVATAR_START,
+		FIFTH_AVATAR_END,
+		BOSS_BATTLE_UNLOCK_START,
+		BOSS_BATTLE_UNLOCK_END,
+		BOSS_DEFEAT,
+		END = 100
+	}
+}

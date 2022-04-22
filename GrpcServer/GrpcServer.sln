@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Priari.Server", "GrpcServer\Priari.Server.csproj", "{7B8F9A53-E1F5-47F7-B522-2BD72FAFC37F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Priari.ServerShared", "Priari.ServerShared\Priari.ServerShared.csproj", "{BB6E4AD8-F51D-4CF6-95F9-FCE840C85830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8F9A53-E1F5-47F7-B522-2BD72FAFC37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8F9A53-E1F5-47F7-B522-2BD72FAFC37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8F9A53-E1F5-47F7-B522-2BD72FAFC37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8F9A53-E1F5-47F7-B522-2BD72FAFC37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6E4AD8-F51D-4CF6-95F9-FCE840C85830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6E4AD8-F51D-4CF6-95F9-FCE840C85830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6E4AD8-F51D-4CF6-95F9-FCE840C85830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6E4AD8-F51D-4CF6-95F9-FCE840C85830}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1ABD2C8-8A9E-4F35-9BB8-EA2E08BFC9BB}
+	EndGlobalSection
+EndGlobal
